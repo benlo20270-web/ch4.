@@ -14,17 +14,17 @@ public class Multadd {
 		//log function is below
 		System.out.println(multadd(1, Math.log(10), 
 		Math.log(20)));
-		
+	}
 	
-public class Expsum {
+    public class expsum {
 		public static double expsum(double x) {
 			double result = 
-			x * Math.pow(e , -x ) + Math.sqrt(1 - Math.pow(e, -x));
+			(multadd(x, Math.pow(Math.E, -x), 0)) + Math.sqrt((multadd(1, 1, -Math.pow(Math.E, -x))));
 			return result;
 		
 	}
 }
-
 }
-		
 
+
+		
